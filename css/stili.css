@@ -1,0 +1,1056 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    background-image: url("../images/background11.jpg");
+  }
+  .header {
+    
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 20%;
+    flex-wrap: wrap;
+    background-color:rgba(128, 128, 128, 0.7);
+    box-shadow: 0 0 10px rgba(128, 128, 128);
+  }
+    
+  .header>img {
+    
+    width: 20%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5%;
+  }
+  
+  
+  ul {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: nowrap;
+  }
+  
+  .headerList li {
+    display: flex;
+    margin-top: 20px;
+    transition: 0.5s ease;
+    margin: 0px 4px;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    padding-top: 10px;
+    color: black;
+    
+  }
+  .headerList li a{
+    color: black;
+    font-weight: 600;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+  }
+  
+  .header ul li a:not(.button):hover {
+    border-bottom: 2px solid #FA2B56;
+  }
+
+
+
+
+
+
+  /*------------------------HOME-------------------*/
+
+  
+
+
+
+
+  .main-home{
+    min-height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: url("../images/logo22.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    
+  }
+  
+  /* Div Majtas */
+  .div-majt-home{
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #divMajtFoto{
+    width: 60%;
+  }
+  .divMajtKontenti{
+    display: flex;
+    flex-direction:column;
+    justify-content: center; 
+    margin-top: 10px;
+  } 
+  .divfoto{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: center;
+    margin-left: 25%;
+    margin-bottom: 20px;
+    
+  }
+  .divtext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30%;
+    opacity: 0.9;
+    
+    
+  }
+  .divtext p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+    margin-inline-end: 10px;
+    
+  }
+  .divMbuttoni{
+    display: flex;
+    justify-content: center;
+    background-color:#fa2b54a8;
+    box-shadow: 0 0 5px #fa2b54a8;
+    width: 20%;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 55%;
+    
+  }
+  .divMbuttoni a {
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    
+  }
+  
+  /* Div Djathtas */
+  
+  .div-djatht-home{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .djathkontenti{
+    display: flex;
+    align-items: center;
+    width: 80%;
+
+  }
+  .slide>img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(128 128 128);
+  }
+  .prev{
+    height: 40px;
+    background-color: #b6b6b6;
+    border-color: white;
+  }
+  .next{
+    height: 40px;
+    background-color: #b6b6b6;
+    border-color: white;
+  }
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  /*--------------PRODUKTI---------------*/
+
+
+  .main-prod{
+    min-height:500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    background-image: url("../images/logo22.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+  }
+  
+  .mainnalt-prod{
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  
+  
+  .main-prod ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    min-height: 330px;
+    width: 100%;
+  }
+  .main-prod li{
+    text-align: center;
+    width: 25%;
+    margin: 20px;
+    background-color:rgba(128, 128, 128, 0.7);
+    box-shadow: 0 0 10px rgb(128 128 128);
+    border-radius: 20px;
+    
+  }
+  .main-prod h3 {
+    font-weight: lighter;
+    font-size: larger;
+    color: white;
+  }
+  .main-prod h4 {
+    font-weight: lighter;
+    font-size: larger;
+    color: white;
+  }
+  .main-prod li img{
+    width: 100%;
+    border-top-left-radius:20px;
+    border-top-right-radius: 20px;
+  }
+  .main-prod li a{
+    text-decoration: none;
+  }
+  
+  
+  
+  
+  /*=====Maini i dyte=====*/
+  .mainbottom-prod {
+    min-height: 350px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-bottom: 50px;
+  }
+  .bottomupi{
+    text-align: center;
+    margin-top: 20px;
+  }
+  .mainbottom-prod h5{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .mainbottom-prod ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+    min-height: 200px;
+    margin: 3px;
+    flex-wrap: wrap;
+  }
+  
+  .mainbottom-prod ul li {
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background-color:rgba(128, 128, 128, 0.7) ;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(128 128 128);
+  }
+  
+  .mainbottom-prod ul li >img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .mainbottom-prod ul li a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .mainbottom-prod ul li a h3{
+    font-weight: lighter;
+    font-size: larger;
+  }
+  
+  .mainbottom-prod ul li a h4{
+    font-weight: lighter;
+  }
+  
+  .bottomdowni{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+
+
+
+
+
+/*===============LogIn====================*/
+
+.main-login {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/logo22.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    
+  }
+  .containeri {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(128 128 128);
+    
+  }
+  .hidden {
+    display: none;
+  }
+  
+  /*Divi i Login/Regjistrit*/ 
+  
+  .link-container {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    border-radius: 10px;
+  }
+  #firstA{
+    border-top-left-radius: 10px;
+  }
+  #b{
+    border-top-right-radius: 10px;
+  }
+  .link-container a {
+    background-color: rgba(128, 128, 128, 0.7);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: x-large;
+    font-weight:lighter;
+    
+    
+  }
+    
+  /*Hoveri i ktyne Loginit/Regjistrit*/
+  .link-container>a:hover {
+    background-color: #fa2b5479 ;
+    transition: all 0.2s ease;
+    
+  }
+  
+  /*======logini======*/
+  .form-style {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.7);
+    border-top: 1px #fa2b5479 solid;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  .form-style h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:black;
+    font-weight: lighter;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  .form-style h2 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:black;
+    font-weight: lighter;
+    font-size: xx-large;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  
+  /*tregust*/
+  
+  .form-style h3 {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    
+    color: black;
+  }
+  
+  /*inputat*/
+  
+  .input {
+    margin-top: 10px;
+    width: 50%;
+    
+    padding-left: 10px;
+    height: 30px;
+    border: 0.5px lightgrey solid; 
+    color: rgb(82, 82, 82);
+    background-color: #b6b6b6;
+    margin-bottom: 10px;
+  }
+  /*======Regjistri======*/
+  #form2{
+    height: 450px;
+    background-color: rgba(128, 128, 128, 0.7);
+  }
+  /*butoni*/
+  #submit {
+    width: 30%;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    font-weight: lighter;
+    background-color:#fa2b5479;
+    border-radius: 10px;
+    color: white;
+    
+    box-shadow: 0 0 10px #fa2b5479;
+    
+  }
+  #submit:hover{
+    background-color: grey;
+  }
+  
+
+
+  
+
+  /*--------------ABOUT US---------------*/
+
+
+
+
+
+
+.main-about{
+  min-height: 400px;
+  width: 100%;
+  display:flex;
+  flex-direction:row;
+  justify-content:center ;
+  background-color: rgba(211, 211, 211,);
+  background-image: url("../images/logo22.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90%;
+}
+
+
+/*Divi i majte*/
+.div-majt-about{
+  width: 50%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#divMajtFoto{
+  width: 60%;
+
+}
+
+.divMajtKontenti{
+  display: flex;
+  flex-direction:column;
+  justify-content: center; 
+  margin-top: 10px;
+} 
+
+.divfotoja{
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  justify-content: center;
+  margin-left: 25%;
+  margin-bottom: 30px;
+}
+
+.divtextt{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 30%;
+  opacity: 0.9;
+}
+
+.divtextt p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: x-large;
+  font-weight: bolder;
+  color: black;
+  text-align: center;
+  margin-inline-end: 10px;
+}
+
+.divMbuttonii{
+  display: flex;
+  justify-content: center;
+  background-color:#fa2b54a8;
+  box-shadow: 0 0 5px #fa2b54a8;
+  width: 20%;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-left: 55%; 
+}
+
+.divMbuttonii a {
+  text-decoration: none;
+  color:white;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: large;
+}
+
+/* Div Djathtas */
+.div-djatht-home{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color:wh;
+}
+
+.djathkontenti>img{
+  width: 80%;
+  margin-left:10%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(128 128 128);
+}
+
+  
+/*=====Maini  ma poshte=====*/
+.mainposht-home{
+  min-height: 300px;
+  width: 100%;
+  display:flex;
+  flex-direction:column;
+}
+
+/*Divi nalt*/
+
+.divnalt-home{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.divnalt-home h2{
+  color: black;
+  font-size: xx-large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom:10px;
+  width: 20%;
+  margin-left: 40%;
+  border-bottom: 2px grey solid;
+}
+
+.divnalt-home p {
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: larger;
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+/*Divi poshte*/
+.divposht-home {
+  display: flex;
+  justify-content: space-between;
+  justify-content:space-evenly ;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  height: 120px;
+  margin-left: auto;
+}
+
+.divposht-home h1 {
+  margin-left: 20px;
+  margin-right: 20px
+}
+
+.ilustrimespec{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 20px;
+  width: 25%;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.5);
+  box-shadow: 0 0 10px rgba(128, 128, 128);
+}
+
+.ilustrimespec h3{
+  color: #FA2B56;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: x-large;
+}
+
+.ilustrimespec p {
+  text-align: center;
+  font-weight: lighter;
+  margin-top: 5px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: large;
+}
+
+.favoritet{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 20px;
+  width: 25%;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.5);
+  box-shadow: 0 0 10px rgba(128, 128, 128);
+}
+
+.favoritet h3 {
+  color: #FA2B56;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: x-large;
+}
+
+.favoritet p{
+  text-align: center;
+  font-weight: lighter;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 5px;
+  font-size: large;
+}
+
+.transporti{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 20px;
+  width: 25%;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.5);
+  box-shadow: 0 0 10px rgba(128, 128, 128);
+}
+
+.transporti h3 {
+  color: #FA2B56;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: x-large;
+}
+
+.transporti p {
+  text-align: center;
+  margin-top: 5px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: large;
+}
+
+
+/*=====Main ma poshte 2=====*/
+.mainimaposht-home{
+  min-height: 400px;
+  width: 100%;
+  display:flex;
+  flex-direction:column;
+  justify-content:center ; 
+  margin-top: 20px;
+  margin-bottom: 30px;
+  background-image: url("../images/logo22.png");
+  background-position: center;
+  background-size: 90%;
+  background-repeat: no-repeat;
+}
+
+.mainimaposht-home h3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  font-size: x-large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.mainimaposht-home ul {
+  display:flex ;
+  justify-content: center;
+  margin-top: 20px;
+  
+}
+
+.mainimaposht-home h1{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.mainimaposht-home img{
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.mainimaposht-home li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: lighter;
+  background-color: rgb(128, 128, 128,0.7);
+  box-shadow: 0 0 10px rgba(128, 128, 128);
+  border-radius: 10px;
+}
+
+/*====================DASHBOARDI=================*/
+.klientat{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+.tablla{
+  width: 50%;
+  border:1px rgba(128, 128, 128, 0.5) solid;
+  background-color: rgba(128, 128, 128, 0.3);
+}
+.tablla th {
+  text-align: center;
+  height: 30px;
+  width: 20%;
+  border: 2px rgba(128, 128, 128, 0.5) solid;
+}
+.tablla td {
+  text-align: center;
+  height: 30px;
+  width: 20%;
+  border: 2px rgba(128, 128, 128, 0.5) solid;
+ text-decoration: none;
+}
+.tablla td a{
+ text-decoration: none;
+ font-family: Arial, Helvetica, sans-serif;
+ color: red;
+ font-weight:bold;
+}
+/*====================AFTER-BUYING=================*/
+.nesepo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+  height: 300px;
+  background-color: rgba(128, 128, 128, 0.7);
+  box-shadow: 0 0 10px  rgba(128, 128, 128) ;
+  align-items: center;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.nesepo a{
+  width: 40%;
+  height: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: none;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: large;
+  font-weight: lighter;
+  background-color: #fa2b5479;
+  border-radius: 10px;
+  color:rgba(211, 211, 211);
+ 
+}
+.nesepo img{
+width: 60%;
+margin-bottom: 10px;
+margin-top: 50px;
+}
+.nesepo2 {
+  width: 30%;
+}
+
+.nesepo2 img {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(128, 128, 128, 0.7);  
+}
+
+
+.kkk2{
+  width: 100%;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/logo22.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 90%;
+}
+.kkk2 h3 {
+  text-align: center;
+  font-size: x-large;
+  color: white;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: lighter;
+  color: black;
+}
+
+.nesejo{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 300px;
+  background-color: rgba(128, 128, 128, 0.7);
+  box-shadow: 0 0 10px rgba(128, 128, 128, 0.7);
+  align-items: center;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.nesejo2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+  height: 350px;
+  background-color: #fa2b5496;
+  box-shadow: 0 0 10px  #fa2b54;
+  align-items: center;
+  border-radius: 20px;
+  
+}
+.nesejo a{
+  width: 40%;
+  height: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border: none;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: large;
+  font-weight: lighter;
+  background-color: #fa2b5479;
+  border-radius: 10px;
+  color:rgba(211, 211, 211);
+  
+}
+.nesejo img {
+width: 60%;
+margin-bottom: 10px;
+margin-top: 50px;
+}
+.nesejo2 img {
+  width: 80%;
+  
+}
+
+
+
+
+
+
+
+/*====================FOOTERI=================*/
+
+.footer-main{
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  width: 100%;
+  height: 180px;
+  margin-top: 0;
+  position: relative;
+  padding-bottom: 2.5rem;
+  box-shadow: 0 0 30px #fa2b54;
+  background-color: #fa2b54b8;
+}
+
+.footer-main::before{
+
+  opacity: 0.5;
+}
+
+.footer-blloku{
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-blloku p {
+  width: 90%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: lightgrey;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.footeridy{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footeridy ul{
+  margin-left: 40%;
+  align-content: center;
+  text-align: center;
+}
+
+.footeridy h1 {
+  margin-left: 20px;
+  margin-left: 20px;
+}
+
+.footeridy li{
+  width: 30%;
+  height: 50px;
+  text-align: center;
+}
+
+.footeridy li a>img{
+  width: 30%;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:425px){
+  .header{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .header>img{
+    width: 50%;
+  }
+  .headerList li {
+    justify-content: center;
+  }
+  
+  .main-home {
+    height: 300px;
+    flex-direction: column;
+  }
+  .div-majt-home{
+    height: 300px;
+    width: 100%;
+  }
+  .div-djatht-home{
+    height: 300px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #divMajtFoto{
+    width: 60%;
+  }
+  .divtext {
+    margin-left: 0%;
+  }
+  .divtext p {
+    font-size:medium;
+    margin-inline-end: 0px;
+  }
+  .divfoto{
+    margin-left: 10%;
+  }
+  .divMbuttoni{
+    width: 30%;
+    margin-left: 35%;
+  }
+  .djathkontenti >img{
+    width: 65%;
+    margin-left: 0%;
+  }
+  #footer{
+    min-height: 70px;
+  }
+  .footer-main{
+    height: 70px;
+  }
+  .footer-blloku p {
+    font-size:small;
+    width: 100%;
+  }
+  .footeridy ul{
+    margin-left: 20%;
+  }
+}
